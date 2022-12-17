@@ -1,5 +1,3 @@
-import { isArray } from 'lodash';
-
 export default class TemplateHTML {
   // * List countries
   getHtmlTextItemsListCountry(arrayCountries) {
