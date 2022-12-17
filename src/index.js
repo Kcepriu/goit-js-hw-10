@@ -2,7 +2,7 @@ import './css/styles.css';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import FetchCountries from './js/fetchCountries';
 import TemplateHTML from './js/templateHTML';
-_ = require('lodash');
+const _ = require('lodash');
 
 const DEBOUNCE_DELAY = 300;
 const TEXTS = {
